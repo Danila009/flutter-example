@@ -15,7 +15,7 @@ void main() async {
   );
 
   runApp(MaterialApp(
-    initialRoute: '/',
+    initialRoute: '/auth',
     routes: {
         '/': (context) => const HomeScreen(),
         '/create_note': (context) => const CreateNoteScreen(),
